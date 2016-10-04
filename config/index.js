@@ -17,8 +17,8 @@ app.config(['$stateProvider','$urlRouterProvider', function ($stateProvider, $ur
 			component : 'car'
 		})
 		$stateProvider.state({
-			name : 'home.details',
-			url : '/details',
+			name : 'home.send',
+			url : '/send',
 			component : 'companyDetails'
 		});
 		$stateProvider.state({
